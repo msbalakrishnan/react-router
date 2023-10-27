@@ -1,12 +1,10 @@
 import { Link } from "react-router-dom"
+import Nav1 from "./Nav1"
 export const Home = () => {
     return (
-        <>
-            <h1>
-                iam from home
-            </h1>
-            <Link  to="/contact">contact</Link>
-        </>
+        <div className="bg1 div">
+                <h1 className="text-center">iam from Home pages . </h1>
+        </div>
 
 
     )

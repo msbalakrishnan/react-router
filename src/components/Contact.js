@@ -2,10 +2,8 @@ import { Link } from "react-router-dom"
 
 export const Contact = () => {
     return (
-        <>
-            <h1>Iam from Contacts </h1>
-            <Link to="/home"> home </Link>
-
-        </>
+        <div className="div bg2">
+            <h1 className="text-center" >iam from Contact page .. </h1>
+        </div>
     )
 }
